@@ -1,0 +1,63 @@
+h1 {
+    color: red;
+}
+
+.container {
+    border: 1px solid black;
+    width: fit-content;
+}
+.container div{
+    display: flex;   
+}
+
+button {
+    height: 100px;
+    width: 100px;
+    /* width: 25%; */
+    border: 1px solid black;
+    font-size: 50px;
+}
+.c {
+    width: 50%;
+}
+.z{ width: 75%;}
+
+/*colors*/
+.lightgrey {color:#ebebeb}
+.darkgrey {color:#d8d9db}
+.lightorange {color:#dfb07e}
+.darkorange {color:#df974c}
+.test{color:#dd8d37 /*op clicked*/}
+.test2{color: #bbbcbe/*numclicked*/}
+
+.screen{
+    color: white;
+    background-color: black;
+    height: 100px;
+    font-size: 50px;
+    align-items: center;
+    justify-content: right;
+    font-family: 'Courier New', Courier, monospace;
+}
+.operationBtn, .e {
+    color: white;
+    background-color:#df974c
+}
+.operationBtn:hover, .e:hover{
+    background-color:#dfb07e
+}
+.operationBtn:active, .e:active{
+    background-color:#dd8d37
+}
+.inputBtn {
+    background-color:#d8d9db
+}
+.inputBtn:hover {
+    background-color:#ebebeb
+}
+.inputBtn:active {
+    background-color:#bbbcbe
+}
+
+
+
