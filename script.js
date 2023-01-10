@@ -48,6 +48,7 @@ for (let i = 0; i < operationBtns.length; i++) {
     } else if (storedValue && !waitingForNextInput) {
       storedValue = operate(storedValue, storedOperation, screen.textContent);
       screen.textContent = storedValue;
+      storedOperation = operationBtns[i].textContent;
       waitingForNextInput = true;
     } else {
       //TODO highlight the button
